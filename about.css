@@ -1,0 +1,22 @@
+/* Styling Tambahan untuk Halaman About */
+#main article.entry {
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#main article.entry img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#main article.entry ul {
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+#main article.entry li {
+    margin-bottom: 8px;
+}

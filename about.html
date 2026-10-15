@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <!-- Navigasi (Menu About aktif) -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <!-- Main Content (Halaman About) -->
+        <section id="wrapper">
+            <section id="main" style="width: 940px; float: none; margin: 0 auto;">
+                <article class="entry">
+                    <h2>Tentang Saya</h2>
+                    <img src="https://dummyimage.com/150/1f5faa/fff.png" alt="Foto Profil">
+                    <p>Halo! Nama saya adalah mahasiswa Universitas Pelita Bangsa yang sedang mengikuti praktikum Pemrograman Web. Halaman ini berisi informasi profil, deskripsi diri, serta portofolio singkat mengenai proyek-proyek web yang pernah dikerjakan menggunakan HTML dan CSS.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis.</p>
+                </article>
+
+                <hr class="divider" />
+
+                <article class="entry">
+                    <h2>Portofolio & Keahlian</h2>
+                    <p>Berikut adalah beberapa teknologi dan bidang keahlian yang sedang dipelajari:</p>
+                    <ul style="margin-left: 20px; line-height: 25px;">
+                        <li><strong>HTML5 & CSS3:</strong> Menguasai struktur semantik dan teknik *layouting* seperti *float* serta *flexbox*.</li>
+                        <li><strong>JavaScript Dasar:</strong> Memahami logika pemrograman dasar untuk interaksi halaman web.</li>
+                        <li><strong>Git & GitHub:</strong> Mengelola *repository* dan melakukan *version control* kode program.</li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>

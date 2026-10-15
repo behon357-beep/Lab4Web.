@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="kontak.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+
+        <!-- Navigasi (Menu Kontak aktif) -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <!-- Main Content (Halaman Kontak) -->
+        <section id="wrapper">
+            <section id="main" style="width: 940px; float: none; margin: 0 auto;">
+                <article class="entry">
+                    <h2>Hubungi Kami</h2>
+                    <p>Silakan isi formulir di bawah ini untuk mengirimkan pesan atau pertanyaan seputar praktikum web.</p>
+                    
+                    <form action="#" method="post" class="contact-form">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda..." required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email anda..." required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan anda di sini..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-large" style="background-color: #1f5faa; border-color: #1f5faa;">Kirim Pesan</button>
+                    </form>
+                </article>
+            </section>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
